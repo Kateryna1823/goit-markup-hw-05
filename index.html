@@ -64,7 +64,7 @@
         <div class="container">
           <div class="hero-item">
             <h1 class="hero-heading">Эффективные решения для вашего бизнеса</h1>
-            <button class="modal-btn button" type="button">Заказать услугу</button>
+            <button class="modal-btn button" type="button" data-modal-open>Заказать услугу</button>
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@
           <h2 class="vizually-hidden">Наши достоинства</h2>
           <ul class="virtues-list list">
             <li class="virtues-item">
-              <div class="virtues-cards">
+              
                 <svg class="virtues-item-icon" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
@@ -82,10 +82,10 @@
                 <p class="virtues-slogan">
                   Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
-              </div>
+             
             </li>
             <li class="virtues-item">
-              <div class="virtues-cards">
+             
                 <svg class="virtues-item-icon" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
@@ -94,7 +94,7 @@
                   Задача организации, в особенности же рамки и место обучения кадров влечет за
                   собой.
                 </p>
-              </div>
+             
             </li>
             <li class="virtues-item">
               <div class="virtues-cards">
@@ -106,10 +106,10 @@
                   Равным образом консультация с широким активом в значительной степени
                   обуславливает.
                 </p>
-              </div>
+             
             </li>
             <li class="virtues-item">
-              <div class="virtues-cards">
+             
                 <svg class="virtues-item-icon" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
@@ -117,7 +117,7 @@
                 <p class="virtues-slogan">
                   Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
-              </div>
+             
             </li>
           </ul>
         </div>
@@ -347,14 +347,14 @@
           <ul class="company-list list">
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="46">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-yaco"></use>
                 </svg>
               </a>
             </li>
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="52">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-tag_line_here"></use>
                 </svg>
               </a>
@@ -362,28 +362,28 @@
 
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="42">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="40">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-foster_peters"></use>
                 </svg>
               </a>
             </li>
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="46">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="company-list-item">
               <a href="#" class="company-list-link">
-                <svg class="company-list-icon" height="44">
+                <svg class="company-list-icon" height="60">
                   <use href="./images/icons.svg#icon-tag_line_company"></use>
                 </svg>
               </a>
@@ -461,5 +461,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal >
+      <div class="modal" >
+        <button type="button" class="close-btn" data-modal-close >
+          <svg class="close-btn-icon" height="18" >
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
